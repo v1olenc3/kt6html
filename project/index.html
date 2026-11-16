@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интернет-магазин «Техника»</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <span class="logo">ТехноМаркет</span>
+            <nav class="menu">
+                <a href="#">Главная</a>
+                <a href="#">Каталог</a>
+                <a href="#">Скидки</a>
+                <a href="#">Контакты</a>
+            </nav>
+        </header>
+
+        <aside class="sidebar">
+            <h3>Фильтры</h3>
+            <div class="filter-group">
+                <label>Цена: от до</label>
+                <input type="text" placeholder="10 000 - 100 000 ₽">
+            </div>
+            <div class="filter-group">
+                <label>Бренд</label>
+                <ul>
+                    <li><input type="checkbox"> Alpha</li>
+                    <li><input type="checkbox"> Beta</li>
+                    <li><input type="checkbox"> Gamma</li>
+                </ul>
+            </div>
+            <div class="filter-group">
+                <label><input type="checkbox" checked> Только в наличии</label>
+            </div>
+        </aside>
+
+        <main class="main">
+            <h2>Каталог товаров</h2>
+            <div class="catalog">
+                <!-- Featured-элемент (Товар дня со скидкой) -->
+                <article class="card card-featured">
+                    <img src="img/promo.jpg" alt="Товар дня">
+                    <div class="card-content">
+                        <span class="badge">Товар дня со скидкой!</span>
+                        <h3>Супер-ноутбук Pro 2026</h3>
+                        <p>Мощный процессор, 32 ГБ ОЗУ, SSD 1ТБ.</p>
+                        <div class="card-footer">
+                            <span class="price">79 990 ₽</span>
+                            <a href="#" class="btn">Купить</a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Обычные карточки товаров (6 штук по заданию) -->
+                <article class="card">
+                    <img src="img/item1.jpg" alt="Смартфон">
+                    <div class="card-content">
+                        <h3>Смартфон X</h3>
+                        <p>Отличная камера и батарея.</p>
+                        <div class="card-footer">
+                            <span class="price">45 000 ₽</span>
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="img/item2.jpg" alt="Планшет">
+                    <div class="card-content">
+                        <h3>Планшет Air</h3>
+                        <p>Для работы и творчества.</p>
+                        <div class="card-footer">
+                            <span class="price">32 000 ₽</span>
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="img/item3.jpg" alt="Умные часы">
+                    <div class="card-content">
+                        <h3>Умные часы</h3>
+                        <p>Контроль здоровья и спорта.</p>
+                        <div class="card-footer">
+                            <span class="price">12 500 ₽</span>
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="img/item4.jpg" alt="Наушники">
+                    <div class="card-content">
+                        <h3>Наушники ANC</h3>
+                        <p>Активное шумоподавление.</p>
+                        <div class="card-footer">
+                            <span class="price">8 990 ₽</span>
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="img/item5.jpg" alt="Монитор">
+                    <div class="card-content">
+                        <h3>Монитор 27" 4K</h3>
+                        <p>IPS матрица, 144 Гц.</p>
+                        <div class="card-footer">
+                            <span class="price">29 900 ₽</span>
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card">
+                    <img src="img/item6.jpg" alt="Клавиатура">
+                    <div class="card-content">
+                        <h3>Механическая клавиатура</h3>
+                        <p>RGB подсветка, тихие свитчи.</p>
+                        <div class="card-footer">
+                            <span class="price">6 500 ₽</span>
+                            <a href="#" class="btn">В корзину</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2026 Интернет-магазин «Техника». Все права защищены.</p>
+        </footer>
+    </div>
+</body>
+</html>
